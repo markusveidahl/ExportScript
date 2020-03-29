@@ -13,7 +13,7 @@
 
 
 
-### Export AutoPilotInfo for multiple devices in seconds using this automatic script.
+### Export WindowsAutoPilotInfo for multiple devices in seconds using this automatic script.
 
 ```
 1. Configure "Scripts\Export.ps1" with the preferred Group-tag
