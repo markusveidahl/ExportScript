@@ -1,0 +1,1 @@
+Powershell.exe -executionpolicy bypass -File Scripts\Export.ps1 -Force
