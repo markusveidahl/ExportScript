@@ -16,7 +16,7 @@
 ### Export WindowsAutoPilotInfo for multiple devices
 
 ```
-1. Configure "Scripts\Export.ps1" with the preferred Group-tag
+1. Configure "Scripts\Export.ps1" with the preferred group tag
 
 2. Add the files to an empty USB-Stick
 
