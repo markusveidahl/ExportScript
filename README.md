@@ -13,7 +13,7 @@
 
 
 
-### Export WindowsAutoPilotInfo for multiple devices in seconds using this automatic script.
+### Export WindowsAutoPilotInfo for multiple devices
 
 ```
 1. Configure "Scripts\Export.ps1" with the preferred Group-tag
@@ -22,15 +22,17 @@
 
 3. Open cmd on the device you want to import.
 
-4. Run the Export-script using the following command: .\Export
+4. Navigate to the USB using cmd (Ex: **cd D:**)
 
-5. The AutoPilotInfo will be added to a CSV file in the "Import" folder
+5. Run the "Export" script by doing: .\Export
 
-6. Repeat for the next machine
+6. The AutoPilotInfo will be added to a CSV file in the "Import" folder
 
-7. Once done, go to the Intune AutoPilot panel and click "import", then select the CSV file in the "Import" folder.
+7. Repeat for the next machine
+
+8. Once done, go to the Intune AutoPilot panel and click "import", then select the CSV file in the "Import" folder.
 ```
 The script is written in a way to bypass any potential errors, let's hope it works for you as well.
 
-This script uses "Get-WindowsAutoPilotInfo.ps1" by Michael Niehaus (https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/1.6)
+This script uses some code from "Get-WindowsAutoPilotInfo.ps1" by Michael Niehaus (https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/1.6)
 
