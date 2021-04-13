@@ -13,7 +13,7 @@
 
 
 
-### Export WindowsAutoPilotInfo for multiple devices
+### Export Windows AutoPilot Info for multiple devices
 
 ```
 1. Configure "Scripts\Export.ps1" with the preferred group tag
