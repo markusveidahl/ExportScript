@@ -22,7 +22,7 @@ powershell.exe '.\Scripts\Get-WindowsAutoPilotInfo.ps1 -OutputFile Temporary.csv
 # Adding the group-tag and appending to the output file
 Get-Content -Path "Temporary.csv" | Select-Object -Skip 1 | ForEach-Object {
     Write-Host "[+] Adding AutoPilotInfo to output file"
-    $line = "$_,Elev"
+    $line = "$_,$GroupTag"
     Add-Content -Path $OutputFilePath -Value "$line"
 }
 
