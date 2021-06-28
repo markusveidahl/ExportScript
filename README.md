@@ -32,7 +32,6 @@
 
 8. Once done, go to the Intune AutoPilot panel and click "import", then select the CSV file in the "Import" folder.
 ```
-The script is written in a way to bypass any potential errors.
 
 This script uses some code from "Get-WindowsAutoPilotInfo.ps1" by Michael Niehaus (https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/1.6)
 
